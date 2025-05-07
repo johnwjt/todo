@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import "tailwindcss";
+
+/* Font Imports */
+
+@theme {
+  --font-monte: "Montserrat", sans-serif;
+  --font-roboto: "Roboto", sans-serif;
+}
+
+/* Traditional CSS Classes */
+button {
+  cursor: pointer;
+}
+.signin-btn,
+.signup-btn,
+.tasks-btn,
+.calendar-btn,
+.ai-chat-btn {
+  padding: calc(var(--spacing) * 2);
+}
+.signin-btn:hover,
+.signup-btn:hover,
+.tasks-btn:hover,
+.calendar-btn:hover,
+.ai-chat-btn:hover {
+  background-color: white;
+  color: black;
+  border-radius: 0.5rem;
+}
+
+.calendar-btn,
+.tasks-btn {
+  margin-right: 4rem;
+}

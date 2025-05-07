@@ -1,0 +1,10 @@
+import Navbar from "../../shared-components/Navbar";
+
+export default function CalendarPage() {
+  return (
+    <>
+      <Navbar />
+      <div>Hello</div>
+    </>
+  );
+}
