@@ -1,6 +1,6 @@
 import Navbar from "../../shared-components/Navbar";
 import Hero from "./Hero";
-import SignUp from "../../shared-components/SignUp";
+import SignUp from "../AuthForm/SignUp";
 
 import { useRef } from "react";
 
