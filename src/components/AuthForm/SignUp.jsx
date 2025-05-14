@@ -2,14 +2,14 @@ import AuthForm from ".";
 
 export default function SignUp({ signUpRef }) {
   return (
-    <div className="text-black font-roboto text-6xl" ref={signUpRef}>
+    <div className="flex justify-center" ref={signUpRef}>
       <AuthForm
         form={[
           {
             label: "Email / Username",
             type: "text",
             name: "username",
-            placeholder: "Enter your username or email",
+            placeholder: "Enter your email",
           },
           {
             label: "Password",

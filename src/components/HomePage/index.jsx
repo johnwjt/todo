@@ -11,7 +11,7 @@ export default function HomePage() {
   };
   return (
     <>
-      <div className="bg-linear-to-b from-black to-neutral-700 min-h-screen ">
+      <div className="bg-linear-to-b from-black to-neutral-700 min-h-screen pb-20 ">
         <Navbar scrollToSignUpRef={handleScrollToSignUp} />
         <Hero />
         <SignUp signUpRef={signUpRef} />
